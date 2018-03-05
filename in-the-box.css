@@ -1,0 +1,34 @@
+.sideBySide {
+  display: inline-block;
+  position: absolute;
+  height: 56vh;
+  padding: 2vh 4vh;
+}
+
+.boxLeft,
+.boxRight {
+  width: 44%;
+  text-align: justify;
+}
+
+.boxLeft {
+  left: 0;
+}
+
+.boxRight {
+  right: 0;
+}
+
+.boxLeft img,
+.boxRight img {
+  width: 10vw;
+  float: left;
+  margin-right: 2vh;
+  margin-bottom: 2vh;
+}
+
+.boxRight img {
+  float: right;
+  margin-right: 0;
+  margin-left: 2vh;
+}
